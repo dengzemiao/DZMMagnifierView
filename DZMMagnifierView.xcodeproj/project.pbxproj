@@ -1,0 +1,573 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AF6E3D0F1FD0EFA400C1A471 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AF6E3D0E1FD0EFA400C1A471 /* AppDelegate.m */; };
+		AF6E3D121FD0EFA400C1A471 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AF6E3D111FD0EFA400C1A471 /* ViewController.m */; };
+		AF6E3D151FD0EFA400C1A471 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF6E3D131FD0EFA400C1A471 /* Main.storyboard */; };
+		AF6E3D171FD0EFA400C1A471 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF6E3D161FD0EFA400C1A471 /* Assets.xcassets */; };
+		AF6E3D1A1FD0EFA400C1A471 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF6E3D181FD0EFA400C1A471 /* LaunchScreen.storyboard */; };
+		AF6E3D1D1FD0EFA400C1A471 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AF6E3D1C1FD0EFA400C1A471 /* main.m */; };
+		AF6E3D271FD0EFA400C1A471 /* DZMMagnifierViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AF6E3D261FD0EFA400C1A471 /* DZMMagnifierViewTests.m */; };
+		AF6E3D321FD0EFA500C1A471 /* DZMMagnifierViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = AF6E3D311FD0EFA500C1A471 /* DZMMagnifierViewUITests.m */; };
+		AF6E3D421FD0F03F00C1A471 /* DZMMagnifierView.m in Sources */ = {isa = PBXBuildFile; fileRef = AF6E3D401FD0F03F00C1A471 /* DZMMagnifierView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AF6E3D231FD0EFA400C1A471 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AF6E3D021FD0EFA400C1A471 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AF6E3D091FD0EFA400C1A471;
+			remoteInfo = DZMMagnifierView;
+		};
+		AF6E3D2E1FD0EFA500C1A471 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AF6E3D021FD0EFA400C1A471 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AF6E3D091FD0EFA400C1A471;
+			remoteInfo = DZMMagnifierView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AF6E3D0A1FD0EFA400C1A471 /* DZMMagnifierView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DZMMagnifierView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF6E3D0D1FD0EFA400C1A471 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AF6E3D0E1FD0EFA400C1A471 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AF6E3D101FD0EFA400C1A471 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		AF6E3D111FD0EFA400C1A471 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		AF6E3D141FD0EFA400C1A471 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AF6E3D161FD0EFA400C1A471 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AF6E3D191FD0EFA400C1A471 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AF6E3D1B1FD0EFA400C1A471 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF6E3D1C1FD0EFA400C1A471 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AF6E3D221FD0EFA400C1A471 /* DZMMagnifierViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DZMMagnifierViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF6E3D261FD0EFA400C1A471 /* DZMMagnifierViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DZMMagnifierViewTests.m; sourceTree = "<group>"; };
+		AF6E3D281FD0EFA400C1A471 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF6E3D2D1FD0EFA500C1A471 /* DZMMagnifierViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DZMMagnifierViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF6E3D311FD0EFA500C1A471 /* DZMMagnifierViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DZMMagnifierViewUITests.m; sourceTree = "<group>"; };
+		AF6E3D331FD0EFA500C1A471 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF6E3D401FD0F03F00C1A471 /* DZMMagnifierView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DZMMagnifierView.m; sourceTree = "<group>"; };
+		AF6E3D411FD0F03F00C1A471 /* DZMMagnifierView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DZMMagnifierView.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AF6E3D071FD0EFA400C1A471 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF6E3D1F1FD0EFA400C1A471 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF6E3D2A1FD0EFA500C1A471 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AF6E3D011FD0EFA400C1A471 = {
+			isa = PBXGroup;
+			children = (
+				AF6E3D0C1FD0EFA400C1A471 /* DZMMagnifierView */,
+				AF6E3D251FD0EFA400C1A471 /* DZMMagnifierViewTests */,
+				AF6E3D301FD0EFA500C1A471 /* DZMMagnifierViewUITests */,
+				AF6E3D0B1FD0EFA400C1A471 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AF6E3D0B1FD0EFA400C1A471 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AF6E3D0A1FD0EFA400C1A471 /* DZMMagnifierView.app */,
+				AF6E3D221FD0EFA400C1A471 /* DZMMagnifierViewTests.xctest */,
+				AF6E3D2D1FD0EFA500C1A471 /* DZMMagnifierViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AF6E3D0C1FD0EFA400C1A471 /* DZMMagnifierView */ = {
+			isa = PBXGroup;
+			children = (
+				AF6E3D3F1FD0F02A00C1A471 /* DZMMagnifierView */,
+				AF6E3D0D1FD0EFA400C1A471 /* AppDelegate.h */,
+				AF6E3D0E1FD0EFA400C1A471 /* AppDelegate.m */,
+				AF6E3D101FD0EFA400C1A471 /* ViewController.h */,
+				AF6E3D111FD0EFA400C1A471 /* ViewController.m */,
+				AF6E3D131FD0EFA400C1A471 /* Main.storyboard */,
+				AF6E3D161FD0EFA400C1A471 /* Assets.xcassets */,
+				AF6E3D181FD0EFA400C1A471 /* LaunchScreen.storyboard */,
+				AF6E3D1B1FD0EFA400C1A471 /* Info.plist */,
+				AF6E3D1C1FD0EFA400C1A471 /* main.m */,
+			);
+			path = DZMMagnifierView;
+			sourceTree = "<group>";
+		};
+		AF6E3D251FD0EFA400C1A471 /* DZMMagnifierViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				AF6E3D261FD0EFA400C1A471 /* DZMMagnifierViewTests.m */,
+				AF6E3D281FD0EFA400C1A471 /* Info.plist */,
+			);
+			path = DZMMagnifierViewTests;
+			sourceTree = "<group>";
+		};
+		AF6E3D301FD0EFA500C1A471 /* DZMMagnifierViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AF6E3D311FD0EFA500C1A471 /* DZMMagnifierViewUITests.m */,
+				AF6E3D331FD0EFA500C1A471 /* Info.plist */,
+			);
+			path = DZMMagnifierViewUITests;
+			sourceTree = "<group>";
+		};
+		AF6E3D3F1FD0F02A00C1A471 /* DZMMagnifierView */ = {
+			isa = PBXGroup;
+			children = (
+				AF6E3D411FD0F03F00C1A471 /* DZMMagnifierView.h */,
+				AF6E3D401FD0F03F00C1A471 /* DZMMagnifierView.m */,
+			);
+			path = DZMMagnifierView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AF6E3D091FD0EFA400C1A471 /* DZMMagnifierView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF6E3D361FD0EFA500C1A471 /* Build configuration list for PBXNativeTarget "DZMMagnifierView" */;
+			buildPhases = (
+				AF6E3D061FD0EFA400C1A471 /* Sources */,
+				AF6E3D071FD0EFA400C1A471 /* Frameworks */,
+				AF6E3D081FD0EFA400C1A471 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DZMMagnifierView;
+			productName = DZMMagnifierView;
+			productReference = AF6E3D0A1FD0EFA400C1A471 /* DZMMagnifierView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AF6E3D211FD0EFA400C1A471 /* DZMMagnifierViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF6E3D391FD0EFA500C1A471 /* Build configuration list for PBXNativeTarget "DZMMagnifierViewTests" */;
+			buildPhases = (
+				AF6E3D1E1FD0EFA400C1A471 /* Sources */,
+				AF6E3D1F1FD0EFA400C1A471 /* Frameworks */,
+				AF6E3D201FD0EFA400C1A471 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AF6E3D241FD0EFA400C1A471 /* PBXTargetDependency */,
+			);
+			name = DZMMagnifierViewTests;
+			productName = DZMMagnifierViewTests;
+			productReference = AF6E3D221FD0EFA400C1A471 /* DZMMagnifierViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AF6E3D2C1FD0EFA500C1A471 /* DZMMagnifierViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF6E3D3C1FD0EFA500C1A471 /* Build configuration list for PBXNativeTarget "DZMMagnifierViewUITests" */;
+			buildPhases = (
+				AF6E3D291FD0EFA500C1A471 /* Sources */,
+				AF6E3D2A1FD0EFA500C1A471 /* Frameworks */,
+				AF6E3D2B1FD0EFA500C1A471 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AF6E3D2F1FD0EFA500C1A471 /* PBXTargetDependency */,
+			);
+			name = DZMMagnifierViewUITests;
+			productName = DZMMagnifierViewUITests;
+			productReference = AF6E3D2D1FD0EFA500C1A471 /* DZMMagnifierViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AF6E3D021FD0EFA400C1A471 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = "邓泽淼";
+				TargetAttributes = {
+					AF6E3D091FD0EFA400C1A471 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Manual;
+					};
+					AF6E3D211FD0EFA400C1A471 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = AF6E3D091FD0EFA400C1A471;
+					};
+					AF6E3D2C1FD0EFA500C1A471 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = AF6E3D091FD0EFA400C1A471;
+					};
+				};
+			};
+			buildConfigurationList = AF6E3D051FD0EFA400C1A471 /* Build configuration list for PBXProject "DZMMagnifierView" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AF6E3D011FD0EFA400C1A471;
+			productRefGroup = AF6E3D0B1FD0EFA400C1A471 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AF6E3D091FD0EFA400C1A471 /* DZMMagnifierView */,
+				AF6E3D211FD0EFA400C1A471 /* DZMMagnifierViewTests */,
+				AF6E3D2C1FD0EFA500C1A471 /* DZMMagnifierViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AF6E3D081FD0EFA400C1A471 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF6E3D1A1FD0EFA400C1A471 /* LaunchScreen.storyboard in Resources */,
+				AF6E3D171FD0EFA400C1A471 /* Assets.xcassets in Resources */,
+				AF6E3D151FD0EFA400C1A471 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF6E3D201FD0EFA400C1A471 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF6E3D2B1FD0EFA500C1A471 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AF6E3D061FD0EFA400C1A471 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF6E3D121FD0EFA400C1A471 /* ViewController.m in Sources */,
+				AF6E3D421FD0F03F00C1A471 /* DZMMagnifierView.m in Sources */,
+				AF6E3D1D1FD0EFA400C1A471 /* main.m in Sources */,
+				AF6E3D0F1FD0EFA400C1A471 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF6E3D1E1FD0EFA400C1A471 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF6E3D271FD0EFA400C1A471 /* DZMMagnifierViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF6E3D291FD0EFA500C1A471 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF6E3D321FD0EFA500C1A471 /* DZMMagnifierViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AF6E3D241FD0EFA400C1A471 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AF6E3D091FD0EFA400C1A471 /* DZMMagnifierView */;
+			targetProxy = AF6E3D231FD0EFA400C1A471 /* PBXContainerItemProxy */;
+		};
+		AF6E3D2F1FD0EFA500C1A471 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AF6E3D091FD0EFA400C1A471 /* DZMMagnifierView */;
+			targetProxy = AF6E3D2E1FD0EFA500C1A471 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AF6E3D131FD0EFA400C1A471 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AF6E3D141FD0EFA400C1A471 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AF6E3D181FD0EFA400C1A471 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AF6E3D191FD0EFA400C1A471 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AF6E3D341FD0EFA500C1A471 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AF6E3D351FD0EFA500C1A471 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AF6E3D371FD0EFA500C1A471 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 2PPP498VY6;
+				INFOPLIST_FILE = DZMMagnifierView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hanjue.appTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "effcb4af-c21b-4707-8a55-dba15a340329";
+				PROVISIONING_PROFILE_SPECIFIER = HJ_APPTest_Dev_P;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AF6E3D381FD0EFA500C1A471 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 2PPP498VY6;
+				INFOPLIST_FILE = DZMMagnifierView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hanjue.appTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "effcb4af-c21b-4707-8a55-dba15a340329";
+				PROVISIONING_PROFILE_SPECIFIER = HJ_APPTest_Dev_P;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AF6E3D3A1FD0EFA500C1A471 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DZMMagnifierViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = DZM.DZMMagnifierViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DZMMagnifierView.app/DZMMagnifierView";
+			};
+			name = Debug;
+		};
+		AF6E3D3B1FD0EFA500C1A471 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DZMMagnifierViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = DZM.DZMMagnifierViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DZMMagnifierView.app/DZMMagnifierView";
+			};
+			name = Release;
+		};
+		AF6E3D3D1FD0EFA500C1A471 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DZMMagnifierViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = DZM.DZMMagnifierViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DZMMagnifierView;
+			};
+			name = Debug;
+		};
+		AF6E3D3E1FD0EFA500C1A471 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DZMMagnifierViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = DZM.DZMMagnifierViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DZMMagnifierView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AF6E3D051FD0EFA400C1A471 /* Build configuration list for PBXProject "DZMMagnifierView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF6E3D341FD0EFA500C1A471 /* Debug */,
+				AF6E3D351FD0EFA500C1A471 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF6E3D361FD0EFA500C1A471 /* Build configuration list for PBXNativeTarget "DZMMagnifierView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF6E3D371FD0EFA500C1A471 /* Debug */,
+				AF6E3D381FD0EFA500C1A471 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF6E3D391FD0EFA500C1A471 /* Build configuration list for PBXNativeTarget "DZMMagnifierViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF6E3D3A1FD0EFA500C1A471 /* Debug */,
+				AF6E3D3B1FD0EFA500C1A471 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF6E3D3C1FD0EFA500C1A471 /* Build configuration list for PBXNativeTarget "DZMMagnifierViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF6E3D3D1FD0EFA500C1A471 /* Debug */,
+				AF6E3D3E1FD0EFA500C1A471 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AF6E3D021FD0EFA400C1A471 /* Project object */;
+}
