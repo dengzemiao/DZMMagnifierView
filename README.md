@@ -1,6 +1,5 @@
 # DZMMagnifierView
 
-***
 #### 效果:
 
 ![Demo效果](gif_0.gif)
