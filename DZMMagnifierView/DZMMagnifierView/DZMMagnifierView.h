@@ -11,7 +11,7 @@
 @interface DZMMagnifierView : UIWindow
 
 /// 目标视图 (注意: 传视图的Window 例子: self.view.window)
-@property (nonatomic, weak) UIView *targetWindow;
+@property (nonatomic, weak, nullable) UIView *targetWindow;
 
 /// 目标视图展示位置 (放大镜需要展示的位置)
 @property (nonatomic, assign) CGPoint targetPoint;
@@ -23,9 +23,9 @@
 @property (nonatomic, assign) CGFloat scale;
 
 /// 弱引用接收对象 (内部已经强引用,如果外部也强引用需要自己释放)
-+ (instancetype)magnifierView;
++ (nonnull instancetype)magnifierView;
 
 /// 移除 (移除对象 并释放内部强引用)
-- (void)remove;
+- (void)remove:(nullable void (^)(void))complete;
 
 @end

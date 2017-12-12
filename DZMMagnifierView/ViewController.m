@@ -59,7 +59,7 @@
         
         self.magnifierView.targetPoint = point;
         
-        [self.magnifierView remove];
+        [self.magnifierView remove:nil];
     }
 }
 

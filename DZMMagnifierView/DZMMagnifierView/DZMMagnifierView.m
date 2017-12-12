@@ -6,7 +6,7 @@
 //  Copyright © 2017年 邓泽淼. All rights reserved.
 //
 
-#define DZMMV_AnimateDuration 0.05
+#define DZMMV_AnimateDuration 0.08
 
 #define DZMMV_Scale 1.8
 
@@ -120,11 +120,13 @@
     }
 }
 
-- (void)remove {
+- (void)remove:(void (^)(void))complete {
     
     __weak DZMMagnifierView *weakSelf = self;
     
     [UIView animateWithDuration:DZMMV_AnimateDuration animations:^{
+        
+        weakSelf.alpha = 0.5;
         
         weakSelf.transform = CGAffineTransformMakeScale(0.2, 0.2);
         
@@ -133,6 +135,8 @@
         [weakSelf removeFromSuperview];
         
         weakSelf.strongSelf = nil;
+        
+        if (complete != nil) { complete(); }
     }];
 }
 
