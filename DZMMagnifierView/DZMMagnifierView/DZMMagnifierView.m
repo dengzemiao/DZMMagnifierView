@@ -114,7 +114,7 @@
             center.y = targetPoint.y -  CGRectGetHeight(self.bounds) / 2;
         }
         
-        self.center = CGPointMake(center.x + self.adjustPoint.x, center.y + self.adjustPoint.x);
+        self.center = CGPointMake(center.x + self.adjustPoint.x, center.y + self.adjustPoint.y);
         
         [self.contentLayer setNeedsDisplay];
     }
