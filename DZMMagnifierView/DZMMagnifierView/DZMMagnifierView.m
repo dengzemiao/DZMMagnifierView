@@ -52,7 +52,7 @@
         self.scale = DZMMV_Scale;
         
         self.frame = CGRectMake(0, 0, DZMMV_WH, DZMMV_WH);
-        self.layer.borderWidth = 5;
+        self.layer.borderWidth = 1;
         self.layer.borderColor = [[[UIColor grayColor] colorWithAlphaComponent:0.9] CGColor];
         self.layer.cornerRadius = DZMMV_WH / 2;
         self.layer.masksToBounds = YES;
