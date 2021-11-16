@@ -42,7 +42,7 @@
 - (void)longPress:(UILongPressGestureRecognizer *)longPress {
     
     CGPoint point = [longPress locationInView:self.label.window];
-     
+
     if (longPress.state == UIGestureRecognizerStateBegan) {
         
         self.magnifierView = [DZMMagnifierView magnifierView];

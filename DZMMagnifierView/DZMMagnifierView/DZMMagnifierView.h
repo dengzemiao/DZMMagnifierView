@@ -17,7 +17,7 @@
 @property (nonatomic, assign) CGPoint targetPoint;
 
 /// 放大镜位置调整 (调整放大镜在原始位置上的偏移 Defalut: CGPointMake(0, 0))
-@property (nonatomic, assign) CGPoint adjustPoint;
+@property (nonatomic, assign) CGPoint offsetPoint;
 
 /// 放大比例 Defalut: 1.8
 @property (nonatomic, assign) CGFloat scale;

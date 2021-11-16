@@ -48,7 +48,7 @@
     
     if (self) {
         
-        self.adjustPoint = CGPointMake(0, 0);
+        self.offsetPoint = CGPointMake(0, 0);
         self.scale = DZMMV_Scale;
         
         self.frame = CGRectMake(0, 0, DZMMV_WH, DZMMV_WH);
@@ -80,10 +80,10 @@
     return self;
 }
 
-- (void)setAdjustPoint:(CGPoint)adjustPoint {
+- (void)setOffsetPoint:(CGPoint)offsetPoint {
     
-    _adjustPoint = adjustPoint;
-    
+    _offsetPoint = offsetPoint;
+
     [self setTargetPoint:self.targetPoint];
 }
 
@@ -123,7 +123,7 @@
             center.y = targetPoint.y -  CGRectGetHeight(self.bounds) / 2;
         }
         
-        self.center = CGPointMake(center.x + self.adjustPoint.x, center.y + self.adjustPoint.y);
+        self.center = CGPointMake(center.x + self.offsetPoint.x, center.y + self.offsetPoint.y);
         
         [self.contentLayer setNeedsDisplay];
     }
